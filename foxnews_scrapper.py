@@ -8,3 +8,6 @@ article = soup.find("article")
 
 headline = article.h2.text 
 print(headline)
+
+video = article.a 
+print(video.get('href'))
